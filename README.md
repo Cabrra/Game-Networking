@@ -1,4 +1,4 @@
-Game-Networking
+Game Networking
 ===============
 
 #### 1. Spaghetti Relay
@@ -18,7 +18,7 @@ This project implements the client module and sends/receives specific message da
 
 ![Pong](https://github.com/Cabrra/cabrra.github.io/blob/master/Images/networking/meatball.png)
 
-Client/server ìpongî application using UDP datagram sockets. The server accepts connection requests from up to two clients. When a client connects to the server, it requests to either be the server-side client (on the listen server) or the standalone client. This dictates whether the client is Player 1 (left) or Player 2 (right). Clients send input messages to the server, and the server sends a snapshot every game tick.
+Client/server ‚Äúpong‚Äù application using UDP datagram sockets. The server accepts connection requests from up to two clients. When a client connects to the server, it requests to either be the server-side client (on the listen server) or the standalone client. This dictates whether the client is Player 1 (left) or Player 2 (right). Clients send input messages to the server, and the server sends a snapshot every game tick.
 
 As part of this assignment students must determine how to use UDP and conserve bandwidth. The exact method of doing so in code is left up to the student.
 
